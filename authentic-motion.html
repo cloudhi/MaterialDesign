@@ -170,15 +170,15 @@ ga('send', 'pageview');
 首先，要感知物体是有形的，这样才能帮助我们去操纵它。观察物体的运动，从而其轻重，灵活度和大小。在Material Design的世界里，动效不仅因为美学意义而存在，它构建里有意义空间关系、凸显功能、维系整个系统的统一性。
 </div>
 <nav class="chapter-toc">
-<h1>Contents</h1>
+<h1>目录</h1>
 <ul>
-<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="http://raidentsao.github.io/MaterialDesign/authentic-motion.html#authentic-motion-mass-weight" data-qp-ui-data-id="qp:e">Mass and Weight</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="http://raidentsao.github.io/MaterialDesign/authentic-motion.html#authentic-motion-mass-weight" data-qp-ui-data-id="qp:e">质量和重量</a></li>
 </ul>
 </nav>
 <div class="article-list">
 <div id="authentic-motion-mass-weight" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:f">
 <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:g">
-Mass and Weight
+质量和重量
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
 <title id="title">Expand and collapse content</title>
 <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
@@ -187,24 +187,24 @@ Mass and Weight
 </h2>
 <div class="article-content">
 <div class="article-intro">
-Physical objects have mass and move only when forces are applied to them. Consequently, objects can’t start or stop instantaneously. Animation with abrupt starts and stops or rapid changes in direction appears unnatural and can be an unexpected and unpleasant disruption for the user.
+物体具有质量，受到外力时会移动。因此，物体不能突然开始或结束运动。突然开始或停止运动的动效是生硬的，显得不自然，无法获得预期效果并且无法取悦用户。
 </div>
 <div class="module-list">
 <div id="mass-weight-best-practices">
 <section class="moduleE1">
-<h3>Best Practices</h3>
+<h3>最佳案例</h3>
 <div class="module-body">
-<p>A critical aspect of motion for material design is to retain the feeling of physicality without sacrificing elegance, simplicity, beauty, and the magic of a seamless user experience. Here are some guidelines to help translate these concepts into animations.</p>
+<p>Material Design动效设计的关键在于在保证物体运动的物理感的同时不牺牲物体运动的优雅感、简约感、美感，从而让物体运动充满魔力，打造无缝式的用户体验。下面是一些动效设计规范，通过这些规范可以更好理解如何用动效展示设计理念。</p>
 </div>
 <div class="figure-group">
 <div class="figure-row">
 <figure class="example do">
 <div class="media">
-<img src="http://img.ui.cn/data/file/6/8/2/68286.gif" data-image-src="http://img.ui.cn/data/file/6/8/2/68286.gif">
+<img src="http://img.ui.cn/data/file/5/8/2/68285.gif" data-image-src="http://img.ui.cn/data/file/5/8/2/68285.gif">>
 </div>
 <figcaption>
-<label for="animation-authentic-motion-authenticMotion_massAndWeight_ex1-do-1" class="caption-title">Do.</label>
-Motion with swift acceleration and gentle deceleration feels natural and delightful.
+<label for="animation-authentic-motion-authenticMotion_massAndWeight_ex1-do-1" class="caption-title">应该</label>
+灵活的加速，温和的减速。这样的动效更容易让用户觉得自然且愉悦。
 </figcaption>
 </figure>
 </div>
@@ -217,17 +217,11 @@ Motion with swift acceleration and gentle deceleration feels natural and delight
 <div class="figure-row">
 <figure class="example dont">
 <div class="media">
-<div class="qp-ui qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" data-qp-ui-data-id="qp:i">
-<video id="animation-authentic-motion-authenticMotion_massAndWeight_ex2-dont-1" loop="" width="740" height="270" tabindex="0">
-<source src="//material-design.storage.googleapis.com/videos/animation-authentic-motion-authenticMotion_massAndWeight_ex2_large_xhdpi.webm" type="video/webm">
-<source src="//material-design.storage.googleapis.com/videos/animation-authentic-motion-authenticMotion_massAndWeight_ex2_large_xhdpi.mp4" type="video/mp4">
-<track kind="captions" src="//material-design.storage.googleapis.com/videos/no-dialogue.vtt" type="text/vtt" srclang="en" label="English Captions" default=""></track>
-</video>
-</div>
+<img src="http://img.ui.cn/data/file/6/8/2/68286.gif" data-image-src="http://img.ui.cn/data/file/6/8/2/68286.gif">
 </div>
 <figcaption>
-<label for="animation-authentic-motion-authenticMotion_massAndWeight_ex2-dont-1" class="caption-title">Don't.</label>
-Linear motion feels mechanical. An abrupt change in velocity at both the beginning and end of the animation curve means the object instantaneously starts and stops, which is unrealistic.
+<label for="animation-authentic-motion-authenticMotion_massAndWeight_ex2-dont-1" class="caption-title">不应该</label>
+线性的运动让人感到生硬。从运动曲线中看出，运动的开头和结尾处，运动速率突然的改变，这让人感到非常的突兀，不真实。
 </figcaption>
 </figure>
 </div>
@@ -236,40 +230,28 @@ Linear motion feels mechanical. An abrupt change in velocity at both the beginni
 </div>
 <div id="mass-weight-special-cases">
 <section class="moduleE1">
-<h4>Special Cases: Entering and Exiting Frame</h4>
+<h4>特殊案例：进场与退场</h4>
 <div class="module-body">
-<p>When an object enters the frame, ensure it's moving at its peak velocity. This behavior emulates natural movement: a person entering the frame of vision does not begin walking at the edge of the frame but well before it. Similarly, when an object exits the frame, have it maintain its velocity, rather than slowing down as it exits the frame. Easing in when entering and slowing down when exiting draw the user's attention to that motion, which, in most cases, isn't the effect you want.</p>
+<p>当物体进场时，保证物体处于最大速率。这样的运动看起来非常自然：物体在进场前便开始运动，而不是进场时才开始运动。同样的，退场时，要确保物体处于最大速率，而不是减速。在进场时缓入，在退场时缓出，这样用户的注意力会集中在动效上，然而在大多数情况下，这并不是设计者想要的效果。</p>
 </div>
 <div class="figure-group">
 <div class="figure-row">
 <figure class="example do">
 <div class="media">
-<div class="qp-ui qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" data-qp-ui-data-id="qp:j">
-<video id="videos-authenticMotion_massAndWeight_ex3_do-do-1" loop="" width="367" height="134" tabindex="0">
-<source src="//material-design.storage.googleapis.com/videos/videos-authenticMotion_massAndWeight_ex3_do_large_xhdpi.webm" type="video/webm">
-<source src="//material-design.storage.googleapis.com/videos/videos-authenticMotion_massAndWeight_ex3_do_large_xhdpi.mp4" type="video/mp4">
-<track kind="captions" src="//material-design.storage.googleapis.com/videos/no-dialogue.vtt" type="text/vtt" srclang="en" label="English Captions" default=""></track>
-</video>
-</div>
+<img src="http://img.ui.cn/data/file/1/9/2/68291.gif" data-image-src="http://img.ui.cn/data/file/1/9/2/68291.gif">
 </div>
 <figcaption>
-<label for="videos-authenticMotion_massAndWeight_ex3_do-do-1" class="caption-title">Do.</label>
-Enter and exit frame at peak velocity. The ball enters and exits frame at peak velocity, creating a confident transition.
+<label for="videos-authenticMotion_massAndWeight_ex3_do-do-1" class="caption-title">应该</label>
+进场和退场时的速率为最大速率，能够营造出自信感十足的动效。
 </figcaption>
 </figure>
 <figure class="example dont">
 <div class="media">
-<div class="qp-ui qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" data-qp-ui-data-id="qp:k">
-<video id="animation-authenticmotion-massandweight-authenticmotion_massandweight_example6-dont-2" loop="" width="740" height="270" tabindex="0">
-<source src="//material-design.storage.googleapis.com/videos/animation-authenticmotion-massandweight-authenticmotion_massandweight_example6_large_xhdpi.webm" type="video/webm">
-<source src="//material-design.storage.googleapis.com/videos/animation-authenticmotion-massandweight-authenticmotion_massandweight_example6_large_xhdpi.mp4" type="video/mp4">
-<track kind="captions" src="//material-design.storage.googleapis.com/videos/no-dialogue.vtt" type="text/vtt" srclang="en" label="English Captions" default=""></track>
-</video>
-</div>
+<img src="http://img.ui.cn/data/file/2/9/2/68292.gif" data-image-src="http://img.ui.cn/data/file/2/9/2/68292.gif">
 </div>
 <figcaption>
-<label for="animation-authenticmotion-massandweight-authenticmotion_massandweight_example6-dont-2" class="caption-title">Don't.</label>
-Speed up when entering or slow down when exiting. Don’t distract the user with unnecessary changes in velocity.
+<label for="animation-authenticmotion-massandweight-authenticmotion_massandweight_example6-dont-2" class="caption-title">不应该</label>
+在进场时加速，退场时减速。这样用户就会因速率的变化而分心。
 </figcaption>
 </figure>
 </div>
@@ -278,9 +260,9 @@ Speed up when entering or slow down when exiting. Don’t distract the user with
 </div>
 <div id="mass-weight-making-adjustments">
 <section class="moduleB1">
-<h3>Making adjustments</h3>
+<h3>做出适当调整</h3>
 <div class="module-body">
-<p>Not all objects move the same way. Lighter/smaller objects may accelerate or decelerate faster, because they have less mass and require less force to do so. Larger/heavier objects may need more time to reach peak speed and come to rest. Think about how this applies to the various UI elements in your app and consider how their motion should be represented.</p>
+<p>不是所有物体都有同样的运动轨迹。更轻/更小的物体可能有更快的加速或减速，因为它们质量更小，运动所需外力也更小。更重/更大的物体需要更多的时间加速或减速。想想看这些物理规律应该如何应用到UI元素上，并考虑如何表达。</p>
 </div>
 </section>
 </div>
@@ -295,7 +277,7 @@ Speed up when entering or slow down when exiting. Don’t distract the user with
 <div class="footer-grid">
 <div class="footer-L section-material-design">&nbsp;</div>
 <div class="footer-grid-L section-material-design">
-<a class="footer-text" href="http://www.google.com/design/spec/material-design/introduction.html">
+<a class="footer-text" href="http://raidentsao.github.io/MaterialDesign/index.html">
 <img class="arrow-L" alt="" src="./Authentic Motion - Animation - Google design guidelines_files/Arrow-left_24x24px.svg">
 <span>Previous:</span>
 <div>
@@ -305,18 +287,18 @@ Material Design
 </div>
 <div class="footer-R section-animation">&nbsp;</div>
 <div class="footer-grid-R section-animation">
-<a class="footer-text" href="http://www.google.com/design/spec/animation/responsive-interaction.html">
+<a class="footer-text" href="http://raidentsao.github.io/MaterialDesign/responsive-interaction.html">
 <img class="arrow-R" alt="" src="./Authentic Motion - Animation - Google design guidelines_files/Arrow-right_24x24px.svg">
 <span>Next:</span>
 <div>
-Responsive Interaction
+响应式交互
 </div>
 </a>
 </div>
 </div>
 </footer>
-<script src="./Authentic Motion - Animation - Google design guidelines_files/picturefill.min.js"></script>
-<script src="./Authentic Motion - Animation - Google design guidelines_files/main.js"></script>
+<script src="http://raidentsao.github.io/MaterialDesign/picturefill.min.js"></script>
+<script src="http://raidentsao.github.io/MaterialDesign/main.js"></script>
 
 
 <div class="qp-ui-mask-modal"></div></body></html>
